@@ -1,0 +1,15 @@
+# The rebuildable environment — don't upload
+.venv/
+
+# Secrets like API keys — NEVER upload
+.env
+
+# Python's temporary cache files
+__pycache__/
+*.pyc
+
+# Mac's invisible clutter files
+.DS_Store
+
+# Local database files, if you have a chroma folder
+# chroma/
